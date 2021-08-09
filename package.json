@@ -4,7 +4,8 @@
   "description": "This is the backend for the flat-tasks-webapp to manage recurring tasks within a group of people.",
   "main": "app.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "standard": "^16.0.3"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
