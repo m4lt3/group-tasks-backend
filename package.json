@@ -1,0 +1,27 @@
+{
+  "name": "flat-task-backend",
+  "version": "0.0.0",
+  "description": "This is the backend for the flat-tasks-webapp to manage recurring tasks within a group of people.",
+  "main": "app.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "flat-file-backend"
+  },
+  "keywords": [
+    "tasks",
+    "group",
+    "management",
+    "recurring"
+  ],
+  "author": "Malte Jakob",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
